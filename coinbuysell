@@ -12,8 +12,8 @@ def post_message(text):
     print(text)
 
 
-access = "xs7vKM4VFeI4v1YLHVDaOQoQUEjbwjYtViBFjfhm" # upbit 에서 받은 본인의 엑세스키  넣으세요.
-secret = "jVj0wsqJm0OzCSgP1kOLQPIr2nxHOBIqoIV8xubJ" # upbit 에서 받은 본인의 시크릿키  넣으세요.
+access = "" # upbit 에서 받은 본인의 엑세스키  넣으세요.
+secret = "" # upbit 에서 받은 본인의 시크릿키  넣으세요.
 
 # 로그인
 upbit = pyupbit.Upbit(access, secret)
